@@ -1,7 +1,7 @@
-from rest_framework.routers import DefaultRouter
+from backend.routers import SharedAPIRootRouter
 
 from .views import UserViewSet
 
-router = DefaultRouter()
+router = SharedAPIRootRouter()
 router.register(r'users', UserViewSet)
 urlpatterns = router.urls
