@@ -1,3 +1,5 @@
+This project is no longer maintained.
+
 # A Django & React Template
 A collection of Django and React modules that will help bootstrap your next Django web
 application.
