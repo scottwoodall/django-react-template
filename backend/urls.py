@@ -1,5 +1,6 @@
 from django.conf.urls import url, include
-from django.contrib.auth.views import login, logout_then_login
+from django.contrib.auth import login
+from django.contrib.auth.views import logout_then_login
 from django.contrib import admin
 
 from .views import app, index
